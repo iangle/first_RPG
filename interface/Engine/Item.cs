@@ -10,5 +10,13 @@ namespace Engine{
         public int ID { get; set; } // the ID number of the item
         public string Name { get; set; } // the name of the item
         public string NamePlural { get; set; } // the name of the item in plural (E.G. items)
+
+        public Item( int id, string name, string namePlural) {
+
+            ID = id;
+            Name = name;
+            NamePlural = namePlural;
+        
+        }
     }
 }

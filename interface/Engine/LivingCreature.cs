@@ -6,5 +6,11 @@ namespace Engine{
     public class LivingCreature{
         public int CurrentHitPoints { get; set; } // current number of hitpoints
         public int MaximumHitPoints { get; set; } // max hitpoints
+
+        public LivingCreature(int currentHitPoints, int maximumHitPoints) {
+
+            CurrentHitPoints = currentHitPoints;
+            MaximumHitPoints = maximumHitPoints;
+        }
     }
 }

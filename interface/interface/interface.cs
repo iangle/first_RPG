@@ -20,7 +20,7 @@ namespace @interface
             InitializeComponent();
 
             //creating a new player
-            _player = new Player();
+            _player = new Player(10,10,20,0,1);
 
             //giving the player some base stats
             _player.CurrentHitPoints = 10;

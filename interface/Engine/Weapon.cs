@@ -10,5 +10,11 @@ namespace Engine{
         public int MinimumDamage { get; set; } //minimum damage that the weapon can deal
         public int MaximumDamage { get; set; } //maximum damage that the weapon can deal
 
+        public Weapon(int id, string name, string namePlural, int minimumDamage, int maximumDamage) :
+            base(id, name, namePlural) {
+
+            MinimumDamage = minimumDamage;
+            MaximumDamage = maximumDamage;
+        }
     }
 }
